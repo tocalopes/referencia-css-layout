@@ -25,6 +25,8 @@ body{
 
 .container{
     height: 100vh; /* //porcentagem da altura da viewport */
+    display: grid; /* grid divide os elementos em linhas ou colunas*/
+    grid-template-columns: 50% 50%; /*dividiu em duas colunas de 50%*/
 }
 
 .container__botao{
@@ -33,4 +35,9 @@ body{
     padding: 1em;/* o tamanho da fonte */
     color: var(--branco-principal);
     display: block;
+}
+
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
 }
