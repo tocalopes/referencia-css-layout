@@ -26,3 +26,11 @@ body{
 .container{
     height: 100vh; /* //porcentagem da altura da viewport */
 }
+
+.container__botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;/* o tamanho da fonte */
+    color: var(--branco-principal);
+    display: block;
+}
