@@ -15,3 +15,14 @@ body{
     margin: 0;
     padding: 0;
 }
+
+
+.principal{
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;/* o tamanho da imagem ocupa toda a tag */
+}
+
+.container{
+    height: 100vh; /* //porcentagem da altura da viewport */
+}
