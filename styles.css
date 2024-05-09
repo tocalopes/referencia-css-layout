@@ -25,7 +25,7 @@ body {
   background-size: contain; /* o tamanho da imagem ocupa toda a tag */
   align-items: center;/*  alinha todos os elementos */
   text-align: center;
-  
+
 }
 
 .container {
@@ -64,4 +64,30 @@ body {
 }
 .container__caixa{
     margin: 0 6em;
+}
+
+.secundario__imagem{
+    width: 80%;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0.2em;
+    color: var(--branco-principal);
+}
+
+.descricao__paragrafo{
+    color: var(--cinza-secundario);
+}
+
+.botao__menor{
+    margin-top: 1em;
+    display: inline-block; 
+    /* tranforma o elemento em um bloco em linha, ocupando apenas o espaço necessário */
 }
