@@ -1,43 +1,56 @@
-:root{
-    --branco-principal: #FFF;
-    --cinza-secundario: #C0C0C0;
-    --botao-azul: rgba(22, 123, 247, 1);
-    --cor-de-fundo: #00030C;
+:root {
+  --branco-principal: #fff;
+  --cinza-secundario: #c0c0c0;
+  --botao-azul: rgba(22, 123, 247, 1);
+  --cor-de-fundo: #00030c;
+  --fonte-principal: 'Inter';
 }
 
-body{
-    background-color: var(--cor-de-fundo);
-    color: var(--branco-principal);
-
+body {
+  background-color: var(--cor-de-fundo);
+  color: var(--branco-principal);
+  font-family: var(--fonte-principal), sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-
-.principal{
-    background-image: url("img/Background.png");
-    background-repeat: no-repeat;
-    background-size: contain;/* o tamanho da imagem ocupa toda a tag */
+.principal {
+  background-image: url("img/Background.png");
+  background-repeat: no-repeat;
+  background-size: contain; /* o tamanho da imagem ocupa toda a tag */
 }
 
-.container{
-    height: 100vh; /* //porcentagem da altura da viewport */
-    display: grid; /* grid divide os elementos em linhas ou colunas*/
-    grid-template-columns: 50% 50%; /*dividiu em duas colunas de 50%*/
+.container {
+  height: 100vh; /* //porcentagem da altura da viewport */
+  display: grid; /* grid divide os elementos em linhas ou colunas*/
+  grid-template-columns: 50% 50%; /*dividiu em duas colunas de 50%*/
 }
 
-.container__botao{
-    background-color: var(--botao-azul);
-    border-radius: 5px;
-    padding: 1em;/* o tamanho da fonte */
-    color: var(--branco-principal);
-    display: block;
+.container__botao {
+  background-color: var(--botao-azul);
+  border-radius: 5px;
+  padding: 1em; /* o tamanho da fonte */
+  color: var(--branco-principal);
+  display: block;
+  text-decoration: none;
 }
 
-.botao_secundario{
-    background-color: transparent;
-    border: 2px solid var(--branco-principal);
+.botao_secundario {
+  background-color: transparent;
+  border: 2px solid var(--branco-principal);
+}
+
+.container__aviso{
+    font-size: 12px;
+    color:var(--cinza-secundario);
+}
+
+.container__titulo{
+    font-size: 28px;
+    font-weight: 700;
 }
