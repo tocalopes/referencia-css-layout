@@ -114,3 +114,33 @@ body {
   font-size: 32px;
   color: var(--branco-principal);
 }
+
+.rodape{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.rodape__imagem{
+  margin-bottom: 3em;
+}
+
+.rodape__lista{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.rodape__item{
+  margin-left: 1em;
+}
+
+.rodape__texto{
+  font-size: 14px;
+  color: var(--cinza-secundario);
+  margin-bottom: 2em;
+}
